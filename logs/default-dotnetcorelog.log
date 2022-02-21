@@ -1,0 +1,8 @@
+﻿dbug: Coolstuff.Correlation.CorrelationService[0]
+      CorrelationService.CorrelationContext - No correlation header found in incoming request
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action Coolstuff.Api.Controllers.StatusController.GetPing (CoolstuffApi) in 0.6839ms
+dbug: Coolstuff.Correlation.CorrelationService[0]
+      CorrelationService.CorrelationContext - No correlation header found in incoming request
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.5587ms 200 application/json; charset=utf-8
