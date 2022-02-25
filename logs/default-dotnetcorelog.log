@@ -1,8 +1,10 @@
-﻿dbug: Coolstuff.Correlation.CorrelationService[0]
-      CorrelationService.CorrelationContext - No correlation header found in incoming request
-info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
-      Executed action Coolstuff.Api.Controllers.StatusController.GetPing (CoolstuffApi) in 0.6839ms
-dbug: Coolstuff.Correlation.CorrelationService[0]
-      CorrelationService.CorrelationContext - No correlation header found in incoming request
-info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
-      Request finished in 1.5587ms 200 application/json; charset=utf-8
+﻿{"log":"\u001b[40m\u001b[32minfo\u001b[39m\u001b[22m\u001b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]\n","stream":"stdout","time":"2022-02-22T10:29:49.58595749Z"}
+{"log":"      Request finished in 3.333ms 200 application/json; charset=utf-8\n","stream":"stdout","time":"2022-02-22T10:29:49.585965292Z"}
+{"log":"\u001b[40m\u001b[32minfo\u001b[39m\u001b[22m\u001b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]\n","stream":"stdout","time":"2022-02-22T10:29:53.452131337Z"}
+{"log":"      Request starting HTTP/1.1 GET http://172.18.140.110:80/status/ping  \n","stream":"stdout","time":"2022-02-22T10:29:53.452181661Z"}
+{"log":"\u001b[40m\u001b[32minfo\u001b[39m\u001b[22m\u001b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]\n","stream":"stdout","time":"2022-02-22T10:29:53.452188808Z"}
+{"log":"      Route matched with {action = \"GetPing\", controller = \"Status\"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPing() on controller OnTheWayConnectorAPI.Api.Controllers.StatusController (OnTheWayConnectorAPI).\n","stream":"stdout","time":"2022-02-22T10:29:53.452193549Z"}
+{"log":"\u001b[40m\u001b[32minfo\u001b[39m\u001b[22m\u001b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]\n","stream":"stdout","time":"2022-02-22T10:29:53.453416681Z"}
+{"log":"      Executing action method OnTheWayConnectorAPI.Api.Controllers.StatusController.GetPing (OnTheWayConnectorAPI) - Validation state: Valid\n","stream":"stdout","time":"2022-02-22T10:29:53.453440792Z"}
+{"log":"info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]\n","stream":"stdout","time":"2022-02-22T10:29:53.453416681Z"}
+{"log":"      Request finished in 2.6901ms 200 application/json; charset=utf-8\n","stream":"stdout","time":"2022-02-22T10:29:53.453440792Z"}
